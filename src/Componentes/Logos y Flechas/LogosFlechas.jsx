@@ -32,6 +32,9 @@ export const LogosFlechas = () => {
     }
  
   return (
+    
+<div>
+        <h2> David Lopez | <a href="https://github.com/cubo1991">GitHub</a> -  <a href="https://www.linkedin.com/in/david-lopez-mathez/">Linkedin</a></h2>
     <div className={s.container}>
 <button className={s.boton} onClick={onClickAtras}><svg width="113" height="108" viewBox="0 0 113 108" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M113 53.7635C113 24.0707 88.9292 0 59.2365 0H53.7635C24.0708 0 0 24.0707 0 53.7635V53.7635C0 83.4563 24.0708 107.527 53.7635 107.527H59.2365C88.9292 107.527 113 83.4563 113 53.7635V53.7635Z" fill="url(#paint0_linear_1_104)"/>
@@ -221,6 +224,7 @@ export const LogosFlechas = () => {
 </svg>
 </button>
 
+    </div>
     </div>
   )
 }
