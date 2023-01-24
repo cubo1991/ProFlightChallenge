@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    position: relative;
+    left: 8rem;
+    top:10rem;
+    width: fit-content;
+}
+
+.containerElements {
+    display: flex;
+    position: relative;
+    
+}
+
+.elegido {
+    position: relative;
+    width: 216.49px;
+    height: 206px;
+    
+    background: linear-gradient(233.16deg, #00B0CE -10.31%, rgba(0, 176, 206, 0.3) 110.31%);
+    border-radius: 30px;
+    }
+ 
+.boton{
+    border-radius: 100%;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    top:3rem;
+    border: none
+}
+ 
